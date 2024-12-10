@@ -482,7 +482,7 @@ if __name__ == "__main__":
         "--gist",
         type=str,
         required=False,
-        default=os.environ.get("GIST_LINK", ""),
+        default=os.environ.get("GIST_LINK", "liliangyin/bb5e7bb839c05fdde91ab9bfe0db2474"),
         help="github username and gist id, separated by '/'",
     )
 
@@ -500,7 +500,7 @@ if __name__ == "__main__":
         "--key",
         type=str,
         required=False,
-        default=os.environ.get("GIST_PAT", ""),
+        default=os.environ.get("GIST_PAT", "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"),
         help="github personal access token for editing gist",
     )
 
